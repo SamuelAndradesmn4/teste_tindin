@@ -1,0 +1,10 @@
+{
+  "type": "mongodb",
+  "host": "0.0.0.0",
+  "port": 27017,
+  "database": "classapp",
+  "useUnifiedTopology": true,
+  "entities": [
+    "src/modules/**/schemas/*.ts"
+  ]
+}
