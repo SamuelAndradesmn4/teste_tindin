@@ -11,6 +11,8 @@ Phone-Number: (92) 99913-0594
  I= "Interface Segregation Principle"
  D= "Depency Inversion Principle" 
  
+ * TypeORM - Utilizei o TypeORM para atuar como um intermediador entre as duas frentes, mapeando os objetos e entidades da Aplicação para a Base de Dados, ou vice e versa.
+ 
  * Utilizaria AWS → Utilizaria o Serviço Lambda por ser um serviço que permite que executemos o código sem que temos a necessidade de provisionar ou gerenciar os servidores, sem contar que o pagamento seria feito apenas pelo tempo de computação consumido podendo reduzir custos para a empresa em comparação a utilização de outros serviços.
  
  * Testes - Não deu tempo desenvolver os testes Unitários e de Integração, porém um framework que eu utilizaria para teste unitário seria o Jest.
